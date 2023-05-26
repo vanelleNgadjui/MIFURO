@@ -5,7 +5,7 @@ const HomePage: React.FC = () => {
   const [text, setText] = useState('');
 
   useEffect(() => {
-    const fullText = "Bienvenue sur Mifuro !";
+    const fullText = "Ce site est en construction...";
     let currentIndex = 0;
 
     const intervalId = setInterval(() => {
