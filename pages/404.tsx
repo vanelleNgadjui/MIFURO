@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../../MIFURO/components/layout';
+import Layout from '../components/layout';
 
 const Error: React.FC = () => {
     return (
