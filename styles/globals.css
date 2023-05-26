@@ -1,0 +1,119 @@
+@import "/styles/mixins.css";
+
+/* globals.css */
+:root {
+  --primary-color:#3c3838;
+  --secondary-color: #e8b17a;
+  --primary-color-second:##343434;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  /* background-image:url('/logo.png'); */
+  /* background-repeat:space;  */
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  background-color: #f1f1f1;
+}
+
+.logo {
+  /* Ajoutez des styles supplémentaires au besoin */
+}
+
+.logo img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 20%;
+}
+
+.nav {
+  /* Ajoutez des styles supplémentaires au besoin */
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav ul li {
+  margin-right: 10px;
+}
+
+/* .nav ul li:last-child {
+  margin-right: 0;
+} */
+
+.nav ul li a, section a {
+  text-decoration: none;
+  color:#e8b17a;
+}
+
+.nav ul li a:hover {
+  color: #555;
+}
+
+h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh; /* Ajustez la hauteur selon vos besoins */
+  font-size: 60px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #3c3838;
+  margin-right: 10px;
+}
+
+.social-icon i {
+  font-size: 20px;
+  color: #e8b17a;
+}
+
+/* Styles pour la disposition responsive */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav {
+    margin-top: 10px;
+  }
+
+  .nav ul {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .nav ul li {
+    margin-right: 0;
+    margin-bottom: 5px;
+  }
+}
+
+/* Ajoute tes autres styles globaux ici */
