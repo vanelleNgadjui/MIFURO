@@ -23,6 +23,7 @@ body {
   background: #121212;
   background-image: url("/Rectanglebg.png");
   position: relative;
+  overflow: hidden;
 }
 
 .center_div {
