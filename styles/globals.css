@@ -18,12 +18,50 @@ body {
 }
 
 .home {
-  width: 100vw;
-  height: 100vh;
+  /* height: fit-content; */
   background: #121212;
   background-image: url("/Rectanglebg.png");
   position: relative;
   overflow: hidden;
+  /* background: conic-gradient(from 180deg at 50% 50%, #6900A9 0deg, #5C1FAC 120deg, #09EAC0 281.25deg, #07EFC0 352.5deg, #00FFC2 360deg); */
+}
+
+.section {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  /* width: 100%; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.section1 {
+  height: 70vh;
+  display: block;
+}
+
+.logo_svg {
+  position: absolute;
+  /* width: 100%; */
+  padding: 10%;
+}
+
+.techRate {
+  width: 100%;
+  position: absolute;
+  top: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.techRate img {
+  /* width: 100%; */
 }
 
 .center_div {
@@ -52,14 +90,110 @@ body {
 
 .testeur {
   position: absolute;
-  top: 60%;
+  top: 45%;
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: center;
+}
+
+.text {
+  position: absolute;
+  top: 65%;
+  left: 10%;
+}
+
+
+
+.section2 {
+  height: 50vh;
+}
+
+.title {
+  width: 100%;
+  position: absolute;
+  top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.text2 {
+  position: absolute;
+  top: 25%;
+  /* left: 10%; */
+}
+
+.end_section {
+  position: absolute;
+  bottom: 0;
+}
+
+.section3 {
+  height: 70vh;
+}
+
+
+
+
+.form_container {
+  width: 338px;
+  height: 315px;
+
+
+  background: linear-gradient(152.97deg, rgba(123, 64, 170, 0.7) 0%, rgba(184, 153, 209, 0.440417) 80.73%, rgba(184, 153, 209, 0.440417) 99.99%, rgba(255, 255, 255, 0.14) 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(12.5px);
+  border-radius: 30px;
+  /* transform: rotate(90deg); */
 
 }
 
+
+
+.form {
+  padding: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.form-style {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  outline: none;
+  color: #c4c3ca;
+  background-color: transparent;
+  border: none;
+  margin-left: 2px;
+}
+.required-icon {
+  margin-left: 4px;
+  color: #00FFC2;
+}
+.input-label {
+  font-size: 14px;
+  margin-left: 15px;
+  text-align: left;
+  color: white;
+}
+
+.form-button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 2rem;
+}
+   
 .buttons {
   position: absolute;
   display: flex;
@@ -74,7 +208,7 @@ body {
   bottom: 2rem;
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -127,6 +261,52 @@ body {
   /* z-index: 7; */
 }
 
+.vector_21 {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  width: 100%;
+  /* z-index: 1; */
+}
+
+
+.vector_22 {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  right: 0;
+  /* z-index: 2; */
+}
+
+.vector_23 {
+  position: absolute;
+  top: 40%;
+  /* z-index: 3; */
+}
+
+.vector_24 {
+  position: absolute;
+  top: 80%;
+  /* z-index: 4; */
+}
+
+.vector_25 {
+  position: absolute;
+  top: 50%;
+  /* z-index: 5; */
+}
+
+.vector_26 {
+  position: absolute;
+  top: 60%;
+  /* z-index: 6; */
+}
+
+.vector_27 {
+  position: absolute;
+  top: 50%;
+  /* z-index: 7; */
+}
 
 header {
   display: flex;
