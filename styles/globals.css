@@ -40,14 +40,16 @@ body {
 }
 
 .section1 {
-  height: 70vh;
-  display: block;
+  height: 80vh;
+  /* display: block; */
 }
 
 .logo_svg {
   position: absolute;
-  /* width: 100%; */
-  padding: 10%;
+    /* width: 100%; */
+    padding: 10%;
+    top: 0;
+    left: 0;
 }
 
 .techRate {
@@ -100,7 +102,7 @@ body {
 .text {
   position: absolute;
   top: 65%;
-  left: 10%;
+  /* left: 10%; */
 }
 
 

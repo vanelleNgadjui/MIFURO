@@ -131,7 +131,7 @@ const HomePage: React.FC = () => {
 
             </div>
             <div className='form-button'>
-              <Link href="#section_contact" legacyBehavior>
+              <Link href="" legacyBehavior>
                 <img src="/form-button.svg" alt="" />
               </Link>
             </div>
