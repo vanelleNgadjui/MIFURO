@@ -12,12 +12,12 @@
 
 @font-face {
   font-family: "Akira Expanded";
-  src: url("../styles/polices/Akira/AkiraBold.otf");
+  src: url('/AkiraBold.otf');
 }
 
 @font-face {
   font-family: "Outfit";
-  src: url("../styles/polices/Outfit/Outfit-Regular.ttf");
+  src: url('/Outfit-Regular.ttf');
 }
 
 body {
