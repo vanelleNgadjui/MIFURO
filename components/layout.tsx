@@ -7,7 +7,7 @@ interface LayoutProps {
 const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div>
-      {/* Ajoute ici les éléments de mise en page communs */}
+      Ajoute ici les éléments de mise en page communs
       <header>
         {/* Contenu de l'en-tête */}
         {/* <img src='logo.png'></img> */}
